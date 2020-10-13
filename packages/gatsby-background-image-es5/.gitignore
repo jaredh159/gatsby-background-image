@@ -1,6 +1,5 @@
 
 packages/*/yarn.lock
-packages/*/package-lock.json
 
 # Logs
 logs
@@ -52,6 +51,5 @@ node_modules/
 
 .serverless/
 yarn.lock
-package-lock.json
 /index.js
 lib/*

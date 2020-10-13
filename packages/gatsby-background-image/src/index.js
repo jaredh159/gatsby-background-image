@@ -379,7 +379,7 @@ class BackgroundImage extends React.Component {
           }}
         />
         {/* Set the original image(s) during SSR & if JS is disabled */}
-        {this.state.hasNoScript && (
+        {false && (
           <noscript>
             <style
               dangerouslySetInnerHTML={{
